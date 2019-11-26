@@ -1,5 +1,21 @@
 # Design
 
+## Atlas Type System
+
+ - Types
+ - Entities
+ - Attributes
+
+Data Lifecycle
+
+ - createTime
+ - containers // hadoop, spark
+ - all type defines
+ - filter key
+ - comment
+ 
+
+
 ## Domain-Specific Meta-Modelling Languages
 
 [Domain-Specific Meta-Modelling Languages](http://miso.es/pubs/DSMM.pdf)
@@ -76,3 +92,4 @@ operation Design createOutps() {
   self.output := dd;
 }
 ```
+
