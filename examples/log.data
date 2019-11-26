@@ -1,0 +1,33 @@
+// basic type: number, string, array
+
+type date {
+    attribute: {
+        format: ""
+    }
+}
+
+type Icon {
+    parameters: [
+        iconName: attributes.iconName
+    ]
+    attributes: {
+        iconName: string
+    }
+}
+
+enum FileMode {
+
+}
+
+
+type File {
+    createTime: date
+    attributes: {
+        name:  string
+        path:  string
+        size:  int
+        mode:  Enum[FileMode]
+        isDir: bool
+        icon:  Icon("file")
+    }
+}
